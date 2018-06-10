@@ -11,7 +11,9 @@ class School
  end
 
  def add_student(students_name, grade)
-   roster[grade] = []
+   # first, create the new key and point it to an empty array
+   roster[grade] = [] || != nil 
+   # now can push the new value into that array
    roster[grade] << students_name
  end
 
