@@ -20,6 +20,7 @@ class School
  end
 
  def grade(grade)
+   # is able to retrieve students from a grade
    roster[grade]
  end
 
