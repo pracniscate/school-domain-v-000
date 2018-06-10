@@ -25,11 +25,12 @@ class School
   end
 
   def sort
+    # can sort the students alpahabetically 
     sorted = {}
     roster.each do |grade, student|
       sorted[grade] = student.sort
     end
-    sorted 
+    sorted
   end
 
 end
