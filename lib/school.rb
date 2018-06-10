@@ -2,7 +2,7 @@ class School
 
  def initialize(school_name)
    @school_name = school_name
-   # has an empty roster when initialized 
+   # has an empty roster when initialized
    @roster = {}
  end
 
